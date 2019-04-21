@@ -15,3 +15,11 @@ export function fetchLogoutLogList(query) {
     params: query
   })
 }
+
+export function fetchOperateLogList(query) {
+  return request({
+    url: '/log/operate/page',
+    method: 'get',
+    params: query
+  })
+}
